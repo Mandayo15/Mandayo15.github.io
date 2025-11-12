@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Portfolio | Andrea Joyce Mandayo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      padding: 25px 0;
+      text-align: center;
+    }
+
+    nav {
+      background: #444;
+      padding: 12px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #ffd60a;
+    }
+
+    section {
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    h2 {
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+      margin-top: 25px;
+    }
+
+    .project {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .project:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .project h3 {
+      color: #0077b6;
+      margin-bottom: 10px;
+    }
+
+    .project p {
+      color: #333;
+      font-size: 0.95rem;
+      margin-bottom: 15px;
+    }
+
+    .project a {
+      display: inline-block;
+      color: white;
+      background-color: #0077b6;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+
+    .project a:hover {
+      background-color: #023e8a;
+    }
+
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+    }
+
+    .contact a {
+      color: #007BFF;
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Andrea Joyce Mandayo</h1>
+    <p>Web Developer | Designer | IT Student</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p></p> style="max-width:700px; margin:auto;">
+      Hello! I'm Andrea, an IT student passionate about creating creative and functional web designs.
+      I enjoy exploring how technology can inspire and connect people. Below are two of my featured web projects.
+    </p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="project">
+        <h3>Activity 4 – E88 Drone Website</h3>
+        <p>A low-cost, hobbyist-grade drone designed primarily for beginners and children</p>
+        <a href="https://mandayo15.github.io/one-page/">View Project</a>
+      </div>
+
+      <div class="project">
+        <h3>Activity 5 – Discover Ilocos Website</h3>
+        <p>Where heritage, nature, and adventure meet under the northern sun.</p>
+        <a href="https://mandayo15.github.io/ilocos/">View Project</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Feel free to reach out through email or visit my GitHub for more projects.</p>
+    <div class="contact">
+      <p>Email: <a href="mailto:mandayoandrea@gmail.com">mandayoandrea@gmail.com</a></p>
+      <p>GitHub: <a href="https://github.com/mandayo15">github.com/mandayo15</a></p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Andrea Joyce Mandayo. All rights reserved.</p>
+  </footer>
+
+</body>
+
+</html>
